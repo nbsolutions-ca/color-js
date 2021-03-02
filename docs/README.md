@@ -1,1 +1,1 @@
-@nbsolutions/color - v1.0.1 / [Exports](modules.md)
+@nbsolutions/color - v1.0.2 / [Exports](modules.md)
