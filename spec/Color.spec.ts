@@ -375,4 +375,9 @@ describe('utils.Color', () => {
         let c = new Color(255, 255, 255);
         expect(c.toHexString()).toBe('#FFFFFF');
     });
+
+    it('toKMLString', () => {
+        let c = new Color(255, 0, 255, 0.5);
+        expect(c.toKMLString()).toBe('7FFF00FF');
+    });
 });

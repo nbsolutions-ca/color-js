@@ -379,6 +379,22 @@ export class Color {
     }
 
     /**
+     * toKMLString
+     * 
+     * Returns a color code string consumable by KML: aabbggrr
+     * 
+     * https://developers.google.com/kml/documentation/kmlreference#kml-fields
+     */
+    public toKMLString(): string {
+        return [
+            Hex.toString(this._a, 2),
+            Hex.toString(this._b, 2),
+            Hex.toString(this._g, 2),
+            Hex.toString(this._r, 2)
+        ].join('');
+    }
+
+    /**
      * Returns a copy of this `Color`
      */
     public clone(): Color {
