@@ -1,4 +1,4 @@
-[@nbsolutions/color - v1.0.2](../README.md) / [Exports](../modules.md) / [Color](../modules/color.md) / Color
+[@nbsolutions/color - v1.1.0](../README.md) / [Exports](../modules.md) / [Color](../modules/color.md) / Color
 
 # Class: Color
 
@@ -28,6 +28,7 @@ Provides tools to manipate colors.
 - [setRed](color.color-1.md#setred)
 - [toHex](color.color-1.md#tohex)
 - [toHexString](color.color-1.md#tohexstring)
+- [toKMLString](color.color-1.md#tokmlstring)
 - [toRGBAObject](color.color-1.md#torgbaobject)
 - [toRGBAString](color.color-1.md#torgbastring)
 - [toRGBObject](color.color-1.md#torgbobject)
@@ -59,7 +60,7 @@ Name | Type | Description |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:13](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L13)
+Defined in: [Color.ts:13](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L13)
 
 ## Methods
 
@@ -71,7 +72,7 @@ Returns a copy of this `Color`
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:384](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L384)
+Defined in: [Color.ts:400](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L400)
 
 ___
 
@@ -91,7 +92,7 @@ Name | Type |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:352](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L352)
+Defined in: [Color.ts:352](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L352)
 
 ___
 
@@ -103,7 +104,7 @@ Gets the alpha channel of this color
 
 **Returns:** *number*
 
-Defined in: [Color.ts:245](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L245)
+Defined in: [Color.ts:245](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L245)
 
 ___
 
@@ -115,7 +116,7 @@ Gets the blue channel of this color
 
 **Returns:** *number*
 
-Defined in: [Color.ts:228](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L228)
+Defined in: [Color.ts:228](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L228)
 
 ___
 
@@ -127,7 +128,7 @@ Gets the green channel of this color
 
 **Returns:** *number*
 
-Defined in: [Color.ts:211](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L211)
+Defined in: [Color.ts:211](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L211)
 
 ___
 
@@ -139,7 +140,7 @@ Gets the red channel of this color
 
 **Returns:** *number*
 
-Defined in: [Color.ts:194](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L194)
+Defined in: [Color.ts:194](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L194)
 
 ___
 
@@ -159,7 +160,7 @@ Name | Type |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:323](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L323)
+Defined in: [Color.ts:323](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L323)
 
 ___
 
@@ -177,7 +178,7 @@ Name | Type | Description |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:237](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L237)
+Defined in: [Color.ts:237](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L237)
 
 ___
 
@@ -195,7 +196,7 @@ Name | Type | Description |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:220](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L220)
+Defined in: [Color.ts:220](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L220)
 
 ___
 
@@ -213,7 +214,7 @@ Name | Type | Description |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:203](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L203)
+Defined in: [Color.ts:203](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L203)
 
 ___
 
@@ -231,7 +232,7 @@ Name | Type | Description |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:186](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L186)
+Defined in: [Color.ts:186](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L186)
 
 ___
 
@@ -245,7 +246,7 @@ __Note:__ This ignores the alpha channel.
 
 **Returns:** *number*
 
-Defined in: [Color.ts:277](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L277)
+Defined in: [Color.ts:277](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L277)
 
 ___
 
@@ -259,7 +260,23 @@ __Note:__ This ignores the alpha channel.
 
 **Returns:** *string*
 
-Defined in: [Color.ts:286](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L286)
+Defined in: [Color.ts:286](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L286)
+
+___
+
+### toKMLString
+
+▸ **toKMLString**(): *string*
+
+toKMLString
+
+Returns a color code string consumable by KML: aabbggrr
+
+https://developers.google.com/kml/documentation/kmlreference#kml-fields
+
+**Returns:** *string*
+
+Defined in: [Color.ts:388](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L388)
 
 ___
 
@@ -271,7 +288,7 @@ Returns an IRGBA object
 
 **Returns:** [*IRGBA*](../interfaces/irgba.irgba-1.md)
 
-Defined in: [Color.ts:307](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L307)
+Defined in: [Color.ts:307](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L307)
 
 ___
 
@@ -283,7 +300,7 @@ Returns a rgba string
 
 **Returns:** *string*
 
-Defined in: [Color.ts:268](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L268)
+Defined in: [Color.ts:268](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L268)
 
 ___
 
@@ -297,7 +314,7 @@ __Note:__ This ignores the alpha channel.
 
 **Returns:** [*IRGBA*](../interfaces/irgba.irgba-1.md)
 
-Defined in: [Color.ts:295](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L295)
+Defined in: [Color.ts:295](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L295)
 
 ___
 
@@ -309,7 +326,7 @@ Returns a rgb string
 
 **Returns:** *string*
 
-Defined in: [Color.ts:261](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L261)
+Defined in: [Color.ts:261](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L261)
 
 ___
 
@@ -321,7 +338,7 @@ Returns a stringified version of this `Color`
 
 **Returns:** *string*
 
-Defined in: [Color.ts:377](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L377)
+Defined in: [Color.ts:377](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L377)
 
 ___
 
@@ -335,7 +352,7 @@ __Note:__ This ignores the alpha channel.
 
 **Returns:** *number*
 
-Defined in: [Color.ts:254](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L254)
+Defined in: [Color.ts:254](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L254)
 
 ___
 
@@ -354,7 +371,7 @@ Name | Type |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:171](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L171)
+Defined in: [Color.ts:171](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L171)
 
 ___
 
@@ -375,7 +392,7 @@ Name | Type | Description |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:119](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L119)
+Defined in: [Color.ts:119](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L119)
 
 ___
 
@@ -401,7 +418,7 @@ Name | Type | Description |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:89](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L89)
+Defined in: [Color.ts:89](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L89)
 
 ___
 
@@ -425,7 +442,7 @@ Name | Type |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:65](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L65)
+Defined in: [Color.ts:65](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L65)
 
 ___
 
@@ -449,7 +466,7 @@ Name | Type | Description |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:43](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L43)
+Defined in: [Color.ts:43](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L43)
 
 ___
 
@@ -474,7 +491,7 @@ Name | Type |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:135](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L135)
+Defined in: [Color.ts:135](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L135)
 
 ___
 
@@ -491,4 +508,4 @@ let random: Color = Color.random();
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:158](https://github.com/nbsolutions-ca/color/blob/16e934c/src/Color.ts#L158)
+Defined in: [Color.ts:158](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L158)

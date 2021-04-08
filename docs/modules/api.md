@@ -1,4 +1,4 @@
-[@nbsolutions/color - v1.0.2](../README.md) / [Exports](../modules.md) / api
+[@nbsolutions/color - v1.1.0](../README.md) / [Exports](../modules.md) / api
 
 # Module: api
 
