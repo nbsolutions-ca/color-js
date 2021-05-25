@@ -1,6 +1,6 @@
 {
   "name": "@nbsolutions/color",
-  "version": "1.1.1-dev",
+  "version": "1.1.1",
   "description": "A Color utility class",
   "main": "lib/api.js",
   "types": "types/api.d.ts",
