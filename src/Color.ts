@@ -7,10 +7,10 @@ import {IRGBA} from './IRGBA';
  * Provides tools to manipate colors.
  */
 export class Color {
-    private _r: number;
-    private _g: number;
-    private _b: number;
-    private _a: number;
+    private $r: number;
+    private $g: number;
+    private $b: number;
+    private $a: number;
 
     /**
      * 
@@ -20,12 +20,12 @@ export class Color {
      * @param {Number} a Float between 0 and 1. Represents alpha.
      */
     public constructor(r?: number, g?: number, b?: number, a?: number) {
-        this._r = r || 0;
-        this._g = g || 0;
-        this._b = b || 0;
-        this._a = ((a === undefined || a === null) ? 1 : a) * 255;
-        if (isNaN(this._a)) {
-            this._a = 255;
+        this.$r = r || 0;
+        this.$g = g || 0;
+        this.$b = b || 0;
+        this.$a = ((a === undefined || a === null) ? 1 : a) * 255;
+        if (isNaN(this.$a)) {
+            this.$a = 255;
         }
     }
 
@@ -42,7 +42,7 @@ export class Color {
      */
     public static fromRGBString(rgbString: string): Color {
         rgbString = rgbString.toLowerCase().replace('rgb(', '').replace(')', '');
-        let rgb: Array<string> = rgbString.split(',');
+        let rgb: string[] = rgbString.split(',');
         return new Color(
             parseInt(rgb[0]),
             parseInt(rgb[1]),
@@ -64,7 +64,7 @@ export class Color {
      */
     public static fromRGBAString(rgbaString: string): Color {
         rgbaString = rgbaString.toLowerCase().replace('rgba(', '').replace(')', '');
-        let rgba: Array<string> = rgbaString.split(',');
+        let rgba: string[] = rgbaString.split(',');
         return new Color(
             parseInt(rgba[0]),
             parseInt(rgba[1]),
@@ -184,7 +184,7 @@ export class Color {
      * @param {Number} r A value between 0 and 255
      */
     public setRed(r: number): Color {
-        this._r = r;
+        this.$r = r;
         return this;
     }
 
@@ -192,7 +192,7 @@ export class Color {
      * Gets the red channel of this color
      */
     public getRed(): number {
-        return this._r;
+        return this.$r;
     }
 
     /**
@@ -201,7 +201,7 @@ export class Color {
      * @param {Number} g A value between 0 and 255
      */
     public setGreen(g: number): Color {
-        this._g = g;
+        this.$g = g;
         return this;
     }
 
@@ -209,7 +209,7 @@ export class Color {
      * Gets the green channel of this color
      */
     public getGreen(): number {
-        return this._g;
+        return this.$g;
     }
 
     /**
@@ -218,7 +218,7 @@ export class Color {
      * @param {Number} b A value between 0 and 255
      */
     public setBlue(b: number): Color {
-        this._b = b;
+        this.$b = b;
         return this;
     }
 
@@ -226,7 +226,7 @@ export class Color {
      * Gets the blue channel of this color
      */
     public getBlue(): number {
-        return this._b;
+        return this.$b;
     }
 
     /**
@@ -235,7 +235,7 @@ export class Color {
      * @param {Number} a A value between 0 and 1
      */
     public setAlpha(a: number): Color {
-        this._a = a * 255;
+        this.$a = a * 255;
         return this;
     }
 
@@ -243,7 +243,7 @@ export class Color {
      * Gets the alpha channel of this color
      */
     public getAlpha(): number {
-        return this._a / 255;
+        return this.$a / 255;
     }
 
     /**
@@ -387,10 +387,10 @@ export class Color {
      */
     public toKMLString(): string {
         return [
-            Hex.toString(this._a, 2),
-            Hex.toString(this._b, 2),
-            Hex.toString(this._g, 2),
-            Hex.toString(this._r, 2)
+            Hex.toString(this.$a, 2),
+            Hex.toString(this.$b, 2),
+            Hex.toString(this.$g, 2),
+            Hex.toString(this.$r, 2)
         ].join('');
     }
 
