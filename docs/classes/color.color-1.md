@@ -1,4 +1,4 @@
-[@nbsolutions/color - v1.1.0](../README.md) / [Exports](../modules.md) / [Color](../modules/color.md) / Color
+[@nbsolutions/color - v1.1.1](../README.md) / [Exports](../modules.md) / [Color](../modules/color.md) / Color
 
 # Class: Color
 
@@ -49,18 +49,18 @@ Provides tools to manipate colors.
 
 \+ **new Color**(`r?`: *number*, `g?`: *number*, `b?`: *number*, `a?`: *number*): [*Color*](color.color-1.md)
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Description |
-:------ | :------ | :------ |
-`r?` | *number* | Integer between 0 and 255. Represents red.   |
-`g?` | *number* | Integer between 0 and 255. Represents green.   |
-`b?` | *number* | Integer between 0 and 255. Represents blue.   |
-`a?` | *number* | Float between 0 and 1. Represents alpha.    |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `r?` | *number* | Integer between 0 and 255. Represents red. |
+| `g?` | *number* | Integer between 0 and 255. Represents green. |
+| `b?` | *number* | Integer between 0 and 255. Represents blue. |
+| `a?` | *number* | Float between 0 and 1. Represents alpha. |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:13](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L13)
+Defined in: [Color.ts:13](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L13)
 
 ## Methods
 
@@ -72,7 +72,7 @@ Returns a copy of this `Color`
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:400](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L400)
+Defined in: [Color.ts:400](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L400)
 
 ___
 
@@ -84,15 +84,15 @@ Darkens the brightness of this color.
 
 Does not change the current instance.
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`percent` | *number* |
+| Name | Type |
+| :------ | :------ |
+| `percent` | *number* |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:352](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L352)
+Defined in: [Color.ts:352](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L352)
 
 ___
 
@@ -104,7 +104,7 @@ Gets the alpha channel of this color
 
 **Returns:** *number*
 
-Defined in: [Color.ts:245](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L245)
+Defined in: [Color.ts:245](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L245)
 
 ___
 
@@ -116,7 +116,7 @@ Gets the blue channel of this color
 
 **Returns:** *number*
 
-Defined in: [Color.ts:228](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L228)
+Defined in: [Color.ts:228](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L228)
 
 ___
 
@@ -128,7 +128,7 @@ Gets the green channel of this color
 
 **Returns:** *number*
 
-Defined in: [Color.ts:211](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L211)
+Defined in: [Color.ts:211](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L211)
 
 ___
 
@@ -140,7 +140,7 @@ Gets the red channel of this color
 
 **Returns:** *number*
 
-Defined in: [Color.ts:194](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L194)
+Defined in: [Color.ts:194](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L194)
 
 ___
 
@@ -152,15 +152,15 @@ Increases the brightness of this color.
 
 Does not change the current instance.
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`percent` | *number* |
+| Name | Type |
+| :------ | :------ |
+| `percent` | *number* |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:323](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L323)
+Defined in: [Color.ts:323](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L323)
 
 ___
 
@@ -170,15 +170,15 @@ ___
 
 Sets the green channel of this color
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Description |
-:------ | :------ | :------ |
-`a` | *number* | A value between 0 and 1    |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `a` | *number* | A value between 0 and 1 |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:237](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L237)
+Defined in: [Color.ts:237](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L237)
 
 ___
 
@@ -188,15 +188,15 @@ ___
 
 Sets the green channel of this color
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Description |
-:------ | :------ | :------ |
-`b` | *number* | A value between 0 and 255    |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `b` | *number* | A value between 0 and 255 |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:220](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L220)
+Defined in: [Color.ts:220](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L220)
 
 ___
 
@@ -206,15 +206,15 @@ ___
 
 Sets the green channel of this color
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Description |
-:------ | :------ | :------ |
-`g` | *number* | A value between 0 and 255    |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `g` | *number* | A value between 0 and 255 |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:203](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L203)
+Defined in: [Color.ts:203](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L203)
 
 ___
 
@@ -224,15 +224,15 @@ ___
 
 Sets the red channel of this color
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Description |
-:------ | :------ | :------ |
-`r` | *number* | A value between 0 and 255    |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `r` | *number* | A value between 0 and 255 |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:186](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L186)
+Defined in: [Color.ts:186](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L186)
 
 ___
 
@@ -246,7 +246,7 @@ __Note:__ This ignores the alpha channel.
 
 **Returns:** *number*
 
-Defined in: [Color.ts:277](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L277)
+Defined in: [Color.ts:277](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L277)
 
 ___
 
@@ -260,7 +260,7 @@ __Note:__ This ignores the alpha channel.
 
 **Returns:** *string*
 
-Defined in: [Color.ts:286](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L286)
+Defined in: [Color.ts:286](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L286)
 
 ___
 
@@ -276,7 +276,7 @@ https://developers.google.com/kml/documentation/kmlreference#kml-fields
 
 **Returns:** *string*
 
-Defined in: [Color.ts:388](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L388)
+Defined in: [Color.ts:388](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L388)
 
 ___
 
@@ -288,7 +288,7 @@ Returns an IRGBA object
 
 **Returns:** [*IRGBA*](../interfaces/irgba.irgba-1.md)
 
-Defined in: [Color.ts:307](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L307)
+Defined in: [Color.ts:307](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L307)
 
 ___
 
@@ -300,7 +300,7 @@ Returns a rgba string
 
 **Returns:** *string*
 
-Defined in: [Color.ts:268](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L268)
+Defined in: [Color.ts:268](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L268)
 
 ___
 
@@ -314,7 +314,7 @@ __Note:__ This ignores the alpha channel.
 
 **Returns:** [*IRGBA*](../interfaces/irgba.irgba-1.md)
 
-Defined in: [Color.ts:295](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L295)
+Defined in: [Color.ts:295](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L295)
 
 ___
 
@@ -326,7 +326,7 @@ Returns a rgb string
 
 **Returns:** *string*
 
-Defined in: [Color.ts:261](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L261)
+Defined in: [Color.ts:261](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L261)
 
 ___
 
@@ -338,7 +338,7 @@ Returns a stringified version of this `Color`
 
 **Returns:** *string*
 
-Defined in: [Color.ts:377](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L377)
+Defined in: [Color.ts:377](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L377)
 
 ___
 
@@ -352,160 +352,160 @@ __Note:__ This ignores the alpha channel.
 
 **Returns:** *number*
 
-Defined in: [Color.ts:254](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L254)
+Defined in: [Color.ts:254](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L254)
 
 ___
 
 ### colorAlphaToColor
 
-▸ `Static`**colorAlphaToColor**(`background`: [*Color*](color.color-1.md), `alphaColor`: [*Color*](color.color-1.md)): [*Color*](color.color-1.md)
+▸ `Static` **colorAlphaToColor**(`background`: [*Color*](color.color-1.md), `alphaColor`: [*Color*](color.color-1.md)): [*Color*](color.color-1.md)
 
 Calculates the composition of an alpha color over background color
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`background` | [*Color*](color.color-1.md) |
-`alphaColor` | [*Color*](color.color-1.md) |
+| Name | Type |
+| :------ | :------ |
+| `background` | [*Color*](color.color-1.md) |
+| `alphaColor` | [*Color*](color.color-1.md) |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:171](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L171)
+Defined in: [Color.ts:171](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L171)
 
 ___
 
 ### fromHex
 
-▸ `Static`**fromHex**(`hex`: *number*): [*Color*](color.color-1.md)
+▸ `Static` **fromHex**(`hex`: *number*): [*Color*](color.color-1.md)
 
-**`example`** 
+**`example`**
 ```typescript
 let white: Color = Color.fromHex(0xFFFFFF);
 ```
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Description |
-:------ | :------ | :------ |
-`hex` | *number* | A number    |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `hex` | *number* | A number |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:119](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L119)
+Defined in: [Color.ts:119](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L119)
 
 ___
 
 ### fromHexString
 
-▸ `Static`**fromHexString**(`hex`: *string*): [*Color*](color.color-1.md)
+▸ `Static` **fromHexString**(`hex`: *string*): [*Color*](color.color-1.md)
 
 Builds a `Color` from a hex string.
 
 Both 3 and 6 character formats are allowed.
 
-**`example`** 
+**`example`**
 
 ```typescript
 let white: Color = Color.fromHexString("#FFFFFF");
 ```
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Description |
-:------ | :------ | :------ |
-`hex` | *string* | The hex string;    |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `hex` | *string* | The hex string; |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:89](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L89)
+Defined in: [Color.ts:89](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L89)
 
 ___
 
 ### fromRGBAString
 
-▸ `Static`**fromRGBAString**(`rgbaString`: *string*): [*Color*](color.color-1.md)
+▸ `Static` **fromRGBAString**(`rgbaString`: *string*): [*Color*](color.color-1.md)
 
 Builds a `Color` from a RGBA string.
 
-**`example`** 
+**`example`**
 
 ```typescript
 let white: Color = Color.fromRGBAString("rgba(255, 255, 255, 1)");
 ```
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`rgbaString` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `rgbaString` | *string* |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:65](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L65)
+Defined in: [Color.ts:65](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L65)
 
 ___
 
 ### fromRGBString
 
-▸ `Static`**fromRGBString**(`rgbString`: *string*): [*Color*](color.color-1.md)
+▸ `Static` **fromRGBString**(`rgbString`: *string*): [*Color*](color.color-1.md)
 
 Builds a `Color` from a RGB string.
 
-**`example`** 
+**`example`**
 
 ```typescript
 let white: Color = Color.fromRGBString("rgb(255, 255, 255)");
 ```
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Description |
-:------ | :------ | :------ |
-`rgbString` | *string* | The RGB string; e.g: rgb(255, 255, 255)    |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `rgbString` | *string* | The RGB string; e.g: rgb(255, 255, 255) |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:43](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L43)
+Defined in: [Color.ts:43](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L43)
 
 ___
 
 ### fromString
 
-▸ `Static`**fromString**(`str`: *string*): [*Color*](color.color-1.md)
+▸ `Static` **fromString**(`str`: *string*): [*Color*](color.color-1.md)
 
 Returns a `Color` a hex string, rgb string, or rgba string.
 
-**`example`** 
+**`example`**
 ```typescript
 let red: Color = Color.fromString('#FF0000');
 let green: Color = Color.fromString('rgb(0, 255, 0)');
 let blue: Color = Color.fromString('rgba(0, 0, 255, 1)');
 ```
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
-:------ | :------ |
-`str` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `str` | *string* |
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:135](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L135)
+Defined in: [Color.ts:135](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L135)
 
 ___
 
 ### random
 
-▸ `Static`**random**(): [*Color*](color.color-1.md)
+▸ `Static` **random**(): [*Color*](color.color-1.md)
 
 Gives a psuedo-random color
 
-**`example`** 
+**`example`**
 ```typescript
 let random: Color = Color.random();
 ```
 
 **Returns:** [*Color*](color.color-1.md)
 
-Defined in: [Color.ts:158](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/Color.ts#L158)
+Defined in: [Color.ts:158](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/Color.ts#L158)

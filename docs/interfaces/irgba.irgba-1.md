@@ -1,4 +1,4 @@
-[@nbsolutions/color - v1.1.0](../README.md) / [Exports](../modules.md) / [IRGBA](../modules/irgba.md) / IRGBA
+[@nbsolutions/color - v1.1.1](../README.md) / [Exports](../modules.md) / [IRGBA](../modules/irgba.md) / IRGBA
 
 # Interface: IRGBA
 
@@ -19,7 +19,7 @@
 
 • **a**: *number*
 
-Defined in: [IRGBA.ts:6](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/IRGBA.ts#L6)
+Defined in: [IRGBA.ts:6](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/IRGBA.ts#L6)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 • **b**: *number*
 
-Defined in: [IRGBA.ts:5](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/IRGBA.ts#L5)
+Defined in: [IRGBA.ts:5](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/IRGBA.ts#L5)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **g**: *number*
 
-Defined in: [IRGBA.ts:4](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/IRGBA.ts#L4)
+Defined in: [IRGBA.ts:4](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/IRGBA.ts#L4)
 
 ___
 
@@ -43,4 +43,4 @@ ___
 
 • **r**: *number*
 
-Defined in: [IRGBA.ts:3](https://github.com/nbsolutions-ca/color/blob/45b04b6/src/IRGBA.ts#L3)
+Defined in: [IRGBA.ts:3](https://github.com/nbsolutions-ca/color/blob/c4c2f61/src/IRGBA.ts#L3)
