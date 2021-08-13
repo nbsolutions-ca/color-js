@@ -1,11 +1,11 @@
-[@nbsolutions/color - v1.1.1](README.md) / Exports
+[@nbsolutions/color - v1.1.2](README.md) / Exports
 
-# @nbsolutions/color - v1.1.1
+# @nbsolutions/color - v1.1.2
 
 ## Table of contents
 
 ### Modules
 
-- [Color](modules/color.md)
-- [IRGBA](modules/irgba.md)
+- [Color](modules/Color.md)
+- [IRGBA](modules/IRGBA.md)
 - [api](modules/api.md)

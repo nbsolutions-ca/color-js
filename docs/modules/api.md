@@ -1,4 +1,4 @@
-[@nbsolutions/color - v1.1.1](../README.md) / [Exports](../modules.md) / api
+[@nbsolutions/color - v1.1.2](../README.md) / [Exports](../modules.md) / api
 
 # Module: api
 
@@ -14,16 +14,16 @@
 
 ### Color
 
-Re-exports: [Color](../classes/color.color-1.md)
+Re-exports: [Color](../classes/Color.Color-1.md)
 
 ___
 
 ### IRGBA
 
-Re-exports: [IRGBA](../interfaces/irgba.irgba-1.md)
+Re-exports: [IRGBA](../interfaces/IRGBA.IRGBA-1.md)
 
 ___
 
 ### default
 
-Renames and exports: [Color](../classes/color.color-1.md)
+Renames and exports: [Color](../classes/Color.Color-1.md)
