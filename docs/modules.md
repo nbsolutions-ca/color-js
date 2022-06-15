@@ -1,11 +1,23 @@
-[@nbsolutions/color - v1.1.2](README.md) / Exports
+[@nbsolutions/color - v1.1.3](README.md) / Exports
 
-# @nbsolutions/color - v1.1.2
+# @nbsolutions/color - v1.1.3
 
 ## Table of contents
 
-### Modules
+### References
 
-- [Color](modules/Color.md)
-- [IRGBA](modules/IRGBA.md)
-- [api](modules/api.md)
+- [default](modules.md#default)
+
+### Classes
+
+- [Color](classes/Color.md)
+
+### Interfaces
+
+- [IRGBA](interfaces/IRGBA.md)
+
+## References
+
+### default
+
+Renames and re-exports [Color](classes/Color.md)

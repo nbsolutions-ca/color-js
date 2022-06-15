@@ -1,8 +1,6 @@
-[@nbsolutions/color - v1.1.2](../README.md) / [Exports](../modules.md) / [Color](../modules/Color.md) / Color
+[@nbsolutions/color - v1.1.3](../README.md) / [Exports](../modules.md) / Color
 
 # Class: Color
-
-[Color](../modules/Color.md).Color
 
 A class that represents a color.
 Provides tools to manipate colors.
@@ -11,37 +9,37 @@ Provides tools to manipate colors.
 
 ### Constructors
 
-- [constructor](Color.Color-1.md#constructor)
+- [constructor](Color.md#constructor)
 
 ### Methods
 
-- [clone](Color.Color-1.md#clone)
-- [darken](Color.Color-1.md#darken)
-- [getAlpha](Color.Color-1.md#getalpha)
-- [getBlue](Color.Color-1.md#getblue)
-- [getGreen](Color.Color-1.md#getgreen)
-- [getRed](Color.Color-1.md#getred)
-- [lighten](Color.Color-1.md#lighten)
-- [setAlpha](Color.Color-1.md#setalpha)
-- [setBlue](Color.Color-1.md#setblue)
-- [setGreen](Color.Color-1.md#setgreen)
-- [setRed](Color.Color-1.md#setred)
-- [toHex](Color.Color-1.md#tohex)
-- [toHexString](Color.Color-1.md#tohexstring)
-- [toKMLString](Color.Color-1.md#tokmlstring)
-- [toRGBAObject](Color.Color-1.md#torgbaobject)
-- [toRGBAString](Color.Color-1.md#torgbastring)
-- [toRGBObject](Color.Color-1.md#torgbobject)
-- [toRGBString](Color.Color-1.md#torgbstring)
-- [toString](Color.Color-1.md#tostring)
-- [valueOf](Color.Color-1.md#valueof)
-- [colorAlphaToColor](Color.Color-1.md#coloralphatocolor)
-- [fromHex](Color.Color-1.md#fromhex)
-- [fromHexString](Color.Color-1.md#fromhexstring)
-- [fromRGBAString](Color.Color-1.md#fromrgbastring)
-- [fromRGBString](Color.Color-1.md#fromrgbstring)
-- [fromString](Color.Color-1.md#fromstring)
-- [random](Color.Color-1.md#random)
+- [clone](Color.md#clone)
+- [darken](Color.md#darken)
+- [getAlpha](Color.md#getalpha)
+- [getBlue](Color.md#getblue)
+- [getGreen](Color.md#getgreen)
+- [getRed](Color.md#getred)
+- [lighten](Color.md#lighten)
+- [setAlpha](Color.md#setalpha)
+- [setBlue](Color.md#setblue)
+- [setGreen](Color.md#setgreen)
+- [setRed](Color.md#setred)
+- [toHex](Color.md#tohex)
+- [toHexString](Color.md#tohexstring)
+- [toKMLString](Color.md#tokmlstring)
+- [toRGBAObject](Color.md#torgbaobject)
+- [toRGBAString](Color.md#torgbastring)
+- [toRGBObject](Color.md#torgbobject)
+- [toRGBString](Color.md#torgbstring)
+- [toString](Color.md#tostring)
+- [valueOf](Color.md#valueof)
+- [colorAlphaToColor](Color.md#coloralphatocolor)
+- [fromHex](Color.md#fromhex)
+- [fromHexString](Color.md#fromhexstring)
+- [fromRGBAString](Color.md#fromrgbastring)
+- [fromRGBString](Color.md#fromrgbstring)
+- [fromString](Color.md#fromstring)
+- [random](Color.md#random)
 
 ## Constructors
 
@@ -60,29 +58,29 @@ Provides tools to manipate colors.
 
 #### Defined in
 
-[Color.ts:22](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L22)
+[Color.ts:22](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L22)
 
 ## Methods
 
 ### clone
 
-▸ **clone**(): [`Color`](Color.Color-1.md)
+▸ **clone**(): [`Color`](Color.md)
 
 Returns a copy of this `Color`
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:400](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L400)
+[Color.ts:400](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L400)
 
 ___
 
 ### darken
 
-▸ **darken**(`percent`): [`Color`](Color.Color-1.md)
+▸ **darken**(`percent`): [`Color`](Color.md)
 
 Darkens the brightness of this color.
 
@@ -96,11 +94,11 @@ Does not change the current instance.
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:352](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L352)
+[Color.ts:352](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L352)
 
 ___
 
@@ -116,7 +114,7 @@ Gets the alpha channel of this color
 
 #### Defined in
 
-[Color.ts:245](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L245)
+[Color.ts:245](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L245)
 
 ___
 
@@ -132,7 +130,7 @@ Gets the blue channel of this color
 
 #### Defined in
 
-[Color.ts:228](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L228)
+[Color.ts:228](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L228)
 
 ___
 
@@ -148,7 +146,7 @@ Gets the green channel of this color
 
 #### Defined in
 
-[Color.ts:211](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L211)
+[Color.ts:211](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L211)
 
 ___
 
@@ -164,13 +162,13 @@ Gets the red channel of this color
 
 #### Defined in
 
-[Color.ts:194](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L194)
+[Color.ts:194](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L194)
 
 ___
 
 ### lighten
 
-▸ **lighten**(`percent`): [`Color`](Color.Color-1.md)
+▸ **lighten**(`percent`): [`Color`](Color.md)
 
 Increases the brightness of this color.
 
@@ -184,17 +182,17 @@ Does not change the current instance.
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:323](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L323)
+[Color.ts:323](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L323)
 
 ___
 
 ### setAlpha
 
-▸ **setAlpha**(`a`): [`Color`](Color.Color-1.md)
+▸ **setAlpha**(`a`): [`Color`](Color.md)
 
 Sets the green channel of this color
 
@@ -206,17 +204,17 @@ Sets the green channel of this color
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:237](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L237)
+[Color.ts:237](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L237)
 
 ___
 
 ### setBlue
 
-▸ **setBlue**(`b`): [`Color`](Color.Color-1.md)
+▸ **setBlue**(`b`): [`Color`](Color.md)
 
 Sets the green channel of this color
 
@@ -228,17 +226,17 @@ Sets the green channel of this color
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:220](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L220)
+[Color.ts:220](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L220)
 
 ___
 
 ### setGreen
 
-▸ **setGreen**(`g`): [`Color`](Color.Color-1.md)
+▸ **setGreen**(`g`): [`Color`](Color.md)
 
 Sets the green channel of this color
 
@@ -250,17 +248,17 @@ Sets the green channel of this color
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:203](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L203)
+[Color.ts:203](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L203)
 
 ___
 
 ### setRed
 
-▸ **setRed**(`r`): [`Color`](Color.Color-1.md)
+▸ **setRed**(`r`): [`Color`](Color.md)
 
 Sets the red channel of this color
 
@@ -272,11 +270,11 @@ Sets the red channel of this color
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:186](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L186)
+[Color.ts:186](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L186)
 
 ___
 
@@ -294,7 +292,7 @@ __Note:__ This ignores the alpha channel.
 
 #### Defined in
 
-[Color.ts:277](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L277)
+[Color.ts:277](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L277)
 
 ___
 
@@ -312,7 +310,7 @@ __Note:__ This ignores the alpha channel.
 
 #### Defined in
 
-[Color.ts:286](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L286)
+[Color.ts:286](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L286)
 
 ___
 
@@ -332,23 +330,23 @@ https://developers.google.com/kml/documentation/kmlreference#kml-fields
 
 #### Defined in
 
-[Color.ts:388](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L388)
+[Color.ts:388](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L388)
 
 ___
 
 ### toRGBAObject
 
-▸ **toRGBAObject**(): [`IRGBA`](../interfaces/IRGBA.IRGBA-1.md)
+▸ **toRGBAObject**(): [`IRGBA`](../interfaces/IRGBA.md)
 
 Returns an IRGBA object
 
 #### Returns
 
-[`IRGBA`](../interfaces/IRGBA.IRGBA-1.md)
+[`IRGBA`](../interfaces/IRGBA.md)
 
 #### Defined in
 
-[Color.ts:307](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L307)
+[Color.ts:307](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L307)
 
 ___
 
@@ -364,13 +362,13 @@ Returns a rgba string
 
 #### Defined in
 
-[Color.ts:268](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L268)
+[Color.ts:268](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L268)
 
 ___
 
 ### toRGBObject
 
-▸ **toRGBObject**(): [`IRGBA`](../interfaces/IRGBA.IRGBA-1.md)
+▸ **toRGBObject**(): [`IRGBA`](../interfaces/IRGBA.md)
 
 Returns an IRGBA object.
 
@@ -378,11 +376,11 @@ __Note:__ This ignores the alpha channel.
 
 #### Returns
 
-[`IRGBA`](../interfaces/IRGBA.IRGBA-1.md)
+[`IRGBA`](../interfaces/IRGBA.md)
 
 #### Defined in
 
-[Color.ts:295](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L295)
+[Color.ts:295](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L295)
 
 ___
 
@@ -398,7 +396,7 @@ Returns a rgb string
 
 #### Defined in
 
-[Color.ts:261](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L261)
+[Color.ts:261](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L261)
 
 ___
 
@@ -414,7 +412,7 @@ Returns a stringified version of this `Color`
 
 #### Defined in
 
-[Color.ts:377](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L377)
+[Color.ts:377](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L377)
 
 ___
 
@@ -432,13 +430,13 @@ __Note:__ This ignores the alpha channel.
 
 #### Defined in
 
-[Color.ts:254](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L254)
+[Color.ts:254](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L254)
 
 ___
 
 ### colorAlphaToColor
 
-▸ `Static` **colorAlphaToColor**(`background`, `alphaColor`): [`Color`](Color.Color-1.md)
+▸ `Static` **colorAlphaToColor**(`background`, `alphaColor`): [`Color`](Color.md)
 
 Calculates the composition of an alpha color over background color
 
@@ -446,22 +444,22 @@ Calculates the composition of an alpha color over background color
 
 | Name | Type |
 | :------ | :------ |
-| `background` | [`Color`](Color.Color-1.md) |
-| `alphaColor` | [`Color`](Color.Color-1.md) |
+| `background` | [`Color`](Color.md) |
+| `alphaColor` | [`Color`](Color.md) |
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:171](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L171)
+[Color.ts:171](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L171)
 
 ___
 
 ### fromHex
 
-▸ `Static` **fromHex**(`hex`): [`Color`](Color.Color-1.md)
+▸ `Static` **fromHex**(`hex`): [`Color`](Color.md)
 
 **`example`**
 ```typescript
@@ -476,17 +474,17 @@ let white: Color = Color.fromHex(0xFFFFFF);
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:119](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L119)
+[Color.ts:119](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L119)
 
 ___
 
 ### fromHexString
 
-▸ `Static` **fromHexString**(`hex`): [`Color`](Color.Color-1.md)
+▸ `Static` **fromHexString**(`hex`): [`Color`](Color.md)
 
 Builds a `Color` from a hex string.
 
@@ -506,17 +504,17 @@ let white: Color = Color.fromHexString("#FFFFFF");
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:89](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L89)
+[Color.ts:89](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L89)
 
 ___
 
 ### fromRGBAString
 
-▸ `Static` **fromRGBAString**(`rgbaString`): [`Color`](Color.Color-1.md)
+▸ `Static` **fromRGBAString**(`rgbaString`): [`Color`](Color.md)
 
 Builds a `Color` from a RGBA string.
 
@@ -534,17 +532,17 @@ let white: Color = Color.fromRGBAString("rgba(255, 255, 255, 1)");
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:65](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L65)
+[Color.ts:65](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L65)
 
 ___
 
 ### fromRGBString
 
-▸ `Static` **fromRGBString**(`rgbString`): [`Color`](Color.Color-1.md)
+▸ `Static` **fromRGBString**(`rgbString`): [`Color`](Color.md)
 
 Builds a `Color` from a RGB string.
 
@@ -562,17 +560,17 @@ let white: Color = Color.fromRGBString("rgb(255, 255, 255)");
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:43](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L43)
+[Color.ts:43](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L43)
 
 ___
 
 ### fromString
 
-▸ `Static` **fromString**(`str`): [`Color`](Color.Color-1.md)
+▸ `Static` **fromString**(`str`): [`Color`](Color.md)
 
 Returns a `Color` a hex string, rgb string, or rgba string.
 
@@ -591,17 +589,17 @@ let blue: Color = Color.fromString('rgba(0, 0, 255, 1)');
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:135](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L135)
+[Color.ts:135](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L135)
 
 ___
 
 ### random
 
-▸ `Static` **random**(): [`Color`](Color.Color-1.md)
+▸ `Static` **random**(): [`Color`](Color.md)
 
 Gives a psuedo-random color
 
@@ -612,8 +610,8 @@ let random: Color = Color.random();
 
 #### Returns
 
-[`Color`](Color.Color-1.md)
+[`Color`](Color.md)
 
 #### Defined in
 
-[Color.ts:158](https://github.com/nbsolutions-ca/color/blob/77b9252/src/Color.ts#L158)
+[Color.ts:158](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/Color.ts#L158)
