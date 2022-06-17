@@ -1,4 +1,4 @@
-[@nbsolutions/color - v1.1.3](../README.md) / [Exports](../modules.md) / IRGBA
+[@nbsolutions/color - v1.1.4](../README.md) / [Exports](../modules.md) / IRGBA
 
 # Interface: IRGBA
 
@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[IRGBA.ts:6](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/IRGBA.ts#L6)
+[IRGBA.ts:6](https://github.com/nbsolutions-ca/color-js/blob/5efbcf8/src/IRGBA.ts#L6)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[IRGBA.ts:5](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/IRGBA.ts#L5)
+[IRGBA.ts:5](https://github.com/nbsolutions-ca/color-js/blob/5efbcf8/src/IRGBA.ts#L5)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[IRGBA.ts:4](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/IRGBA.ts#L4)
+[IRGBA.ts:4](https://github.com/nbsolutions-ca/color-js/blob/5efbcf8/src/IRGBA.ts#L4)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[IRGBA.ts:3](https://github.com/nbsolutions-ca/color-js/blob/16e1535/src/IRGBA.ts#L3)
+[IRGBA.ts:3](https://github.com/nbsolutions-ca/color-js/blob/5efbcf8/src/IRGBA.ts#L3)
