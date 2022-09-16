@@ -1,35 +1,32 @@
 
+
 import Hex from '@nbsolutions/hex';
-import {IRGBA} from './IRGBA';
-import {RGBA} from './RGBA';
+import {IRGB} from './IRGB';
 
 /**
  * A class that represents a color.
  * Provides tools to manipate colors.
- * 
- * @deprecated Use RGBA instead
  */
-export class Color {
+export class RGB {
     private $r: number;
     private $g: number;
     private $b: number;
-    private $a: number;
 
     /**
      * 
      * @param {Number} r Integer between 0 and 255. Represents red.
      * @param {Number} g Integer between 0 and 255. Represents green.
      * @param {Number} b Integer between 0 and 255. Represents blue.
-     * @param {Number} a Float between 0 and 1. Represents alpha.
+    //  * @param {Number} a Float between 0 and 1. Represents alpha.
      */
-    public constructor(r?: number, g?: number, b?: number, a?: number) {
+    public constructor(r?: number, g?: number, b?: number) {
         this.$r = r || 0;
         this.$g = g || 0;
         this.$b = b || 0;
-        this.$a = ((a === undefined || a === null) ? 1 : a) * 255;
-        if (isNaN(this.$a)) {
-            this.$a = 255;
-        }
+        // this.$a = ((a === undefined || a === null) ? 1 : a) * 255;
+        // if (isNaN(this.$a)) {
+        //     this.$a = 255;
+        // }
     }
 
     /**
@@ -43,14 +40,13 @@ export class Color {
      * 
      * @param {String} rgbString The RGB string; e.g: rgb(255, 255, 255)
      */
-    public static fromRGBString(rgbString: string): Color {
+    public static fromRGBString(rgbString: string): RGB {
         rgbString = rgbString.toLowerCase().replace('rgb(', '').replace(')', '');
         let rgb: string[] = rgbString.split(',');
-        return new Color(
+        return new RGB(
             parseInt(rgb[0]),
             parseInt(rgb[1]),
-            parseInt(rgb[2]),
-            1
+            parseInt(rgb[2])
         );
     }
 
@@ -65,16 +61,16 @@ export class Color {
      * 
      * @param {String} rgbString The RGBA string; e.g: rgba(255, 255, 255, 0.5)
      */
-    public static fromRGBAString(rgbaString: string): Color {
-        rgbaString = rgbaString.toLowerCase().replace('rgba(', '').replace(')', '');
-        let rgba: string[] = rgbaString.split(',');
-        return new Color(
-            parseInt(rgba[0]),
-            parseInt(rgba[1]),
-            parseInt(rgba[2]),
-            parseFloat(rgba[3])
-        );
-    }
+    // public static fromRGBAString(rgbaString: string): Color {
+    //     rgbaString = rgbaString.toLowerCase().replace('rgba(', '').replace(')', '');
+    //     let rgba: string[] = rgbaString.split(',');
+    //     return new Color(
+    //         parseInt(rgba[0]),
+    //         parseInt(rgba[1]),
+    //         parseInt(rgba[2]),
+    //         parseFloat(rgba[3])
+    //     );
+    // }
 
     /**
      * Builds a `Color` from a hex string.
@@ -89,7 +85,7 @@ export class Color {
      * 
      * @param {String} hex The hex string;
      */
-    public static fromHexString(hex: string): Color {
+    public static fromHexString(hex: string): RGB {
         hex = Hex.normalize(hex);
 
         if (hex.length === 3) {
@@ -104,7 +100,7 @@ export class Color {
         let g: string = hex.slice(2, 4);
         let b: string = hex.slice(4, 6);
 
-        return new Color(
+        return new RGB(
             Hex.fromString(r),
             Hex.fromString(g),
             Hex.fromString(b)
@@ -119,8 +115,8 @@ export class Color {
      * 
      * @param {Number} hex A number
      */
-    public static fromHex(hex: number): Color {
-        return Color.fromHexString('#' + Hex.toString(hex, 6));
+    public static fromHex(hex: number): RGB {
+        return RGB.fromHexString('#' + Hex.toString(hex, 6));
     }
 
     /**
@@ -135,16 +131,16 @@ export class Color {
      * 
      * @param {String} str 
      */
-    public static fromString(str: string): Color {
+    public static fromString(str: string): RGB {
         if (str.indexOf('#') > -1) {
-            return Color.fromHexString(str);
+            return RGB.fromHexString(str);
         }
         else if (str.indexOf('rgb(') > -1) {
-            return Color.fromRGBString(str);
+            return RGB.fromRGBString(str);
         }
-        else if (str.indexOf('rgba(') > -1) {
-            return Color.fromRGBAString(str);
-        }
+        // else if (str.indexOf('rgba(') > -1) {
+        //     return Color.fromRGBAString(str);
+        // }
         else {
             throw new Error('Unsupported color string format.');
         }
@@ -158,35 +154,35 @@ export class Color {
      * let random: Color = Color.random();
      * ```
      */
-    public static random(): Color {
+    public static random(): RGB {
         let r: number = Math.floor(Math.random() * 255);
         let g: number = Math.floor(Math.random() * 255);
         let b: number = Math.floor(Math.random() * 255);
-        return new Color(r, g, b);
+        return new RGB(r, g, b);
     }
 
-    /**
-     * Calculates the composition of an alpha color over background color
-     * 
-     * @param {Color} background 
-     * @param {Color} alphaColor 
-     */
-    public static colorAlphaToColor(background: Color, alphaColor: Color): Color {
-        let alpha: number = alphaColor.getAlpha();
+    // /**
+    //  * Calculates the composition of an alpha color over background color
+    //  * 
+    //  * @param {Color} background 
+    //  * @param {Color} alphaColor 
+    //  */
+    // public static colorAlphaToColor(background: Color, alphaColor: Color): Color {
+    //     let alpha: number = alphaColor.getAlpha();
 
-        return new Color(
-            (1 - alpha) * background.getRed() + alpha * alphaColor.getRed(),
-            (1 - alpha) * background.getGreen() + alpha * alphaColor.getGreen(),
-            (1 - alpha) * background.getBlue() + alpha * alphaColor.getBlue()
-        );
-    }
+    //     return new Color(
+    //         (1 - alpha) * background.getRed() + alpha * alphaColor.getRed(),
+    //         (1 - alpha) * background.getGreen() + alpha * alphaColor.getGreen(),
+    //         (1 - alpha) * background.getBlue() + alpha * alphaColor.getBlue()
+    //     );
+    // }
 
     /**
      * Sets the red channel of this color
      * 
      * @param {Number} r A value between 0 and 255
      */
-    public setRed(r: number): Color {
+    public setRed(r: number): RGB {
         this.$r = r;
         return this;
     }
@@ -203,7 +199,7 @@ export class Color {
      * 
      * @param {Number} g A value between 0 and 255
      */
-    public setGreen(g: number): Color {
+    public setGreen(g: number): RGB {
         this.$g = g;
         return this;
     }
@@ -220,7 +216,7 @@ export class Color {
      * 
      * @param {Number} b A value between 0 and 255
      */
-    public setBlue(b: number): Color {
+    public setBlue(b: number): RGB {
         this.$b = b;
         return this;
     }
@@ -232,22 +228,22 @@ export class Color {
         return this.$b;
     }
 
-    /**
-     * Sets the green channel of this color
-     * 
-     * @param {Number} a A value between 0 and 1
-     */
-    public setAlpha(a: number): Color {
-        this.$a = a * 255;
-        return this;
-    }
+    // /**
+    //  * Sets the green channel of this color
+    //  * 
+    //  * @param {Number} a A value between 0 and 1
+    //  */
+    // public setAlpha(a: number): Color {
+    //     this.$a = a * 255;
+    //     return this;
+    // }
 
-    /**
-     * Gets the alpha channel of this color
-     */
-    public getAlpha(): number {
-        return this.$a / 255;
-    }
+    // /**
+    //  * Gets the alpha channel of this color
+    //  */
+    // public getAlpha(): number {
+    //     return this.$a / 255;
+    // }
 
     /**
      * Returns the numerical value of this color.
@@ -265,30 +261,22 @@ export class Color {
         return `rgb(${this.getRed()},${this.getGreen()},${this.getBlue()})`;
     }
 
-    /**
-     * Returns a rgba string
-     */
-    public toRGBAString(): string {
-        return `rgba(${this.getRed()},${this.getGreen()},${this.getBlue()},${this.getAlpha()})`;
-    }
+    // /**
+    //  * Returns a rgba string
+    //  */
+    // public toRGBAString(): string {
+    //     return `rgba(${this.getRed()},${this.getGreen()},${this.getBlue()},${this.getAlpha()})`;
+    // }
 
     /**
      * Returns the numerical value of this color.
      */
-    public toHex(includeAlpha?: boolean): number {
-        if (includeAlpha) {
-            let rgba: RGBA = new RGBA(this.$r, this.$g, this.$b, this.$a);
-            return rgba.toHex();
-        }
-        else {
-            return this.valueOf();
-        }
+    public toHex(): number {
+        return this.valueOf();
     }
 
     /**
      * Returns a hex string
-     * 
-     * __Note:__ This ignores the alpha channel.
      */
     public toHexString(): string {
         return '#' + Hex.toString(this.toHex(), 6);
@@ -299,26 +287,25 @@ export class Color {
      * 
      * __Note:__ This ignores the alpha channel.
      */
-    public toRGBObject(): IRGBA {
+    public toRGBObject(): IRGB {
         return {
             r : this.getRed(),
             g : this.getGreen(),
-            b : this.getBlue(),
-            a: null
+            b : this.getBlue()
         };
     }
 
-    /**
-     * Returns an IRGBA object
-     */
-    public toRGBAObject(): IRGBA {
-        return {
-            r : this.getRed(),
-            g : this.getGreen(),
-            b : this.getBlue(),
-            a : this.getAlpha()
-        };
-    }
+    // /**
+    //  * Returns an IRGBA object
+    //  */
+    // public toRGBAObject(): IRGBA {
+    //     return {
+    //         r : this.getRed(),
+    //         g : this.getGreen(),
+    //         b : this.getBlue(),
+    //         a : this.getAlpha()
+    //     };
+    // }
 
     /**
      * Increases the brightness of this color.
@@ -327,7 +314,7 @@ export class Color {
      * 
      * @param {Number} percent 
      */
-    public lighten(percent: number): Color {
+    public lighten(percent: number): RGB {
         let r: number = this.getRed();
         let g: number = this.getGreen();
         let b: number = this.getBlue();
@@ -346,7 +333,7 @@ export class Color {
             b = 255;
         }
 
-        return new Color(r, g, b, this.getAlpha());
+        return new RGB(r, g, b);
     }
 
     /**
@@ -356,7 +343,7 @@ export class Color {
      * 
      * @param {Number} percent 
      */
-    public darken(percent: number): Color {
+    public darken(percent: number): RGB {
         let r: number = this.getRed();
         let g: number = this.getGreen();
         let b: number = this.getBlue();
@@ -375,36 +362,36 @@ export class Color {
             b = 0;
         }
 
-        return new Color(r, g, b, this.getAlpha());
+        return new RGB(r, g, b);
     }
 
     /**
      * Returns a stringified version of this `Color`
      */
     public toString(): string {
-        return this.toRGBAString();
+        return this.toRGBString();
     }
 
-    /**
-     * toKMLString
-     * 
-     * Returns a color code string consumable by KML: aabbggrr
-     * 
-     * https://developers.google.com/kml/documentation/kmlreference#kml-fields
-     */
-    public toKMLString(): string {
-        return [
-            Hex.toString(this.$a, 2),
-            Hex.toString(this.$b, 2),
-            Hex.toString(this.$g, 2),
-            Hex.toString(this.$r, 2)
-        ].join('');
-    }
+    // /**
+    //  * toKMLString
+    //  * 
+    //  * Returns a color code string consumable by KML: aabbggrr
+    //  * 
+    //  * https://developers.google.com/kml/documentation/kmlreference#kml-fields
+    //  */
+    // public toKMLString(): string {
+    //     return [
+    //         Hex.toString(this.$a, 2),
+    //         Hex.toString(this.$b, 2),
+    //         Hex.toString(this.$g, 2),
+    //         Hex.toString(this.$r, 2)
+    //     ].join('');
+    // }
 
     /**
      * Returns a copy of this `Color`
      */
-    public clone(): Color {
-        return Color.fromString(this.toString());
+    public clone(): RGB {
+        return new RGB(this.$r, this.$g, this.$b);
     }
 }
