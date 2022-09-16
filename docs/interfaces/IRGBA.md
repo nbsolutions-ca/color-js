@@ -2,6 +2,12 @@
 
 # Interface: IRGBA
 
+## Hierarchy
+
+- [`IRGB`](IRGB.md)
+
+  ↳ **`IRGBA`**
+
 ## Table of contents
 
 ### Properties
@@ -19,7 +25,7 @@
 
 #### Defined in
 
-[IRGBA.ts:6](https://github.com/nbsolutions-ca/color-js/blob/5efbcf8/src/IRGBA.ts#L6)
+[IRGBA.ts:4](https://github.com/nbsolutions-ca/color-js/blob/53525ad/src/IRGBA.ts#L4)
 
 ___
 
@@ -27,9 +33,13 @@ ___
 
 • **b**: `number`
 
+#### Inherited from
+
+[IRGB](IRGB.md).[b](IRGB.md#b)
+
 #### Defined in
 
-[IRGBA.ts:5](https://github.com/nbsolutions-ca/color-js/blob/5efbcf8/src/IRGBA.ts#L5)
+[IRGB.ts:5](https://github.com/nbsolutions-ca/color-js/blob/53525ad/src/IRGB.ts#L5)
 
 ___
 
@@ -37,9 +47,13 @@ ___
 
 • **g**: `number`
 
+#### Inherited from
+
+[IRGB](IRGB.md).[g](IRGB.md#g)
+
 #### Defined in
 
-[IRGBA.ts:4](https://github.com/nbsolutions-ca/color-js/blob/5efbcf8/src/IRGBA.ts#L4)
+[IRGB.ts:4](https://github.com/nbsolutions-ca/color-js/blob/53525ad/src/IRGB.ts#L4)
 
 ___
 
@@ -47,6 +61,10 @@ ___
 
 • **r**: `number`
 
+#### Inherited from
+
+[IRGB](IRGB.md).[r](IRGB.md#r)
+
 #### Defined in
 
-[IRGBA.ts:3](https://github.com/nbsolutions-ca/color-js/blob/5efbcf8/src/IRGBA.ts#L3)
+[IRGB.ts:3](https://github.com/nbsolutions-ca/color-js/blob/53525ad/src/IRGB.ts#L3)

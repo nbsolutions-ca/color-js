@@ -11,9 +11,12 @@
 ### Classes
 
 - [Color](classes/Color.md)
+- [RGB](classes/RGB.md)
+- [RGBA](classes/RGBA.md)
 
 ### Interfaces
 
+- [IRGB](interfaces/IRGB.md)
 - [IRGBA](interfaces/IRGBA.md)
 
 ## References
