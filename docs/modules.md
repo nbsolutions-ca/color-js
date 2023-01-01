@@ -1,6 +1,6 @@
-[@nbsolutions/color - v1.2.0](README.md) / Exports
+[@nbsolutions/color - v1.2.1](README.md) / Exports
 
-# @nbsolutions/color - v1.2.0
+# @nbsolutions/color - v1.2.1
 
 ## Table of contents
 
