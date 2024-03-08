@@ -1,4 +1,4 @@
-[@nbsolutions/color - v1.2.1](../README.md) / [Exports](../modules.md) / RGBA
+[@nbsolutions/color - v1.2.2](../README.md) / [Exports](../modules.md) / RGBA
 
 # Class: RGBA
 
@@ -68,7 +68,7 @@ Provides tools to manipate colors.
 
 #### Defined in
 
-[RGBA.ts:22](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L22)
+[RGBA.ts:22](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L22)
 
 ## Methods
 
@@ -88,7 +88,7 @@ Returns a copy of this `RGBA`
 
 #### Defined in
 
-[RGBA.ts:364](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L364)
+[RGBA.ts:364](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L364)
 
 ___
 
@@ -116,7 +116,7 @@ Does not change the current instance.
 
 #### Defined in
 
-[RGBA.ts:316](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L316)
+[RGBA.ts:316](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L316)
 
 ___
 
@@ -132,7 +132,7 @@ Gets the alpha channel of this color
 
 #### Defined in
 
-[RGBA.ts:45](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L45)
+[RGBA.ts:45](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L45)
 
 ___
 
@@ -152,7 +152,7 @@ Gets the blue channel of this color
 
 #### Defined in
 
-[RGB.ts:227](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGB.ts#L227)
+[RGB.ts:181](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGB.ts#L181)
 
 ___
 
@@ -172,7 +172,7 @@ Gets the green channel of this color
 
 #### Defined in
 
-[RGB.ts:210](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGB.ts#L210)
+[RGB.ts:164](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGB.ts#L164)
 
 ___
 
@@ -192,7 +192,7 @@ Gets the red channel of this color
 
 #### Defined in
 
-[RGB.ts:193](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGB.ts#L193)
+[RGB.ts:147](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGB.ts#L147)
 
 ___
 
@@ -220,7 +220,7 @@ Does not change the current instance.
 
 #### Defined in
 
-[RGBA.ts:287](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L287)
+[RGBA.ts:287](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L287)
 
 ___
 
@@ -242,7 +242,7 @@ Sets the alpha channel of this color
 
 #### Defined in
 
-[RGBA.ts:38](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L38)
+[RGBA.ts:38](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L38)
 
 ___
 
@@ -268,7 +268,7 @@ Sets the green channel of this color
 
 #### Defined in
 
-[RGB.ts:219](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGB.ts#L219)
+[RGB.ts:173](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGB.ts#L173)
 
 ___
 
@@ -294,7 +294,7 @@ Sets the green channel of this color
 
 #### Defined in
 
-[RGB.ts:202](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGB.ts#L202)
+[RGB.ts:156](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGB.ts#L156)
 
 ___
 
@@ -320,7 +320,7 @@ Sets the red channel of this color
 
 #### Defined in
 
-[RGB.ts:185](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGB.ts#L185)
+[RGB.ts:139](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGB.ts#L139)
 
 ___
 
@@ -346,7 +346,7 @@ Returns the numerical value of this color.
 
 #### Defined in
 
-[RGBA.ts:78](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L78)
+[RGBA.ts:78](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L78)
 
 ___
 
@@ -366,7 +366,7 @@ Returns a hex string
 
 #### Defined in
 
-[RGBA.ts:85](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L85)
+[RGBA.ts:85](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L85)
 
 ___
 
@@ -386,7 +386,7 @@ https://developers.google.com/kml/documentation/kmlreference#kml-fields
 
 #### Defined in
 
-[RGBA.ts:352](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L352)
+[RGBA.ts:352](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L352)
 
 ___
 
@@ -402,7 +402,7 @@ Returns an IRGBA object
 
 #### Defined in
 
-[RGBA.ts:103](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L103)
+[RGBA.ts:103](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L103)
 
 ___
 
@@ -418,7 +418,7 @@ Returns a rgba string
 
 #### Defined in
 
-[RGBA.ts:71](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L71)
+[RGBA.ts:71](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L71)
 
 ___
 
@@ -438,7 +438,7 @@ Returns an IRGB object.
 
 #### Defined in
 
-[RGBA.ts:92](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L92)
+[RGBA.ts:92](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L92)
 
 ___
 
@@ -458,7 +458,7 @@ Returns a rgb string
 
 #### Defined in
 
-[RGBA.ts:64](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L64)
+[RGBA.ts:64](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L64)
 
 ___
 
@@ -478,7 +478,7 @@ Returns a stringified version of this `RGBA`
 
 #### Defined in
 
-[RGBA.ts:341](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L341)
+[RGBA.ts:341](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L341)
 
 ___
 
@@ -498,7 +498,7 @@ Returns the numerical value of this color.
 
 #### Defined in
 
-[RGBA.ts:52](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L52)
+[RGBA.ts:52](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L52)
 
 ___
 
@@ -521,7 +521,7 @@ Calculates the composition of an alpha color over background color
 
 #### Defined in
 
-[RGBA.ts:270](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L270)
+[RGBA.ts:270](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L270)
 
 ___
 
@@ -551,7 +551,7 @@ let white: Color = Color.fromHex(0xFFFFFFFF);
 
 #### Defined in
 
-[RGBA.ts:214](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L214)
+[RGBA.ts:214](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L214)
 
 ___
 
@@ -592,7 +592,7 @@ let white: Color = Color.fromHexString("#FFFFFF");
 
 #### Defined in
 
-[RGBA.ts:179](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L179)
+[RGBA.ts:179](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L179)
 
 ___
 
@@ -623,7 +623,7 @@ alpha value may not appear identical as the out alpha.
 
 #### Defined in
 
-[RGBA.ts:148](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L148)
+[RGBA.ts:148](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L148)
 
 ___
 
@@ -655,7 +655,7 @@ let white: Color = Color.fromRGBString("rgb(255, 255, 255)");
 
 #### Defined in
 
-[RGBA.ts:123](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L123)
+[RGBA.ts:123](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L123)
 
 ___
 
@@ -689,7 +689,7 @@ let blue: Color = Color.fromString('rgba(0, 0, 255, 1)');
 
 #### Defined in
 
-[RGBA.ts:230](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L230)
+[RGBA.ts:230](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L230)
 
 ___
 
@@ -721,4 +721,4 @@ let random: Color = Color.random();
 
 #### Defined in
 
-[RGBA.ts:253](https://github.com/nbsolutions-ca/color-js/blob/ca82931/src/RGBA.ts#L253)
+[RGBA.ts:253](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/RGBA.ts#L253)
