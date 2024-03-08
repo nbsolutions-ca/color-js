@@ -17,16 +17,11 @@ export class RGB {
      * @param {Number} r Integer between 0 and 255. Represents red.
      * @param {Number} g Integer between 0 and 255. Represents green.
      * @param {Number} b Integer between 0 and 255. Represents blue.
-    //  * @param {Number} a Float between 0 and 1. Represents alpha.
      */
     public constructor(r?: number, g?: number, b?: number) {
-        this.$r = r || 0;
-        this.$g = g || 0;
-        this.$b = b || 0;
-        // this.$a = ((a === undefined || a === null) ? 1 : a) * 255;
-        // if (isNaN(this.$a)) {
-        //     this.$a = 255;
-        // }
+        this.$r = Math.round(r || 0);
+        this.$g = Math.round(g || 0);
+        this.$b = Math.round(b || 0);
     }
 
     /**
@@ -49,28 +44,6 @@ export class RGB {
             parseInt(rgb[2])
         );
     }
-
-    /**
-     * Builds a `Color` from a RGBA string.
-     * 
-     * @example
-     * 
-     * ```typescript
-     * let white: Color = Color.fromRGBAString("rgba(255, 255, 255, 1)");
-     * ```
-     * 
-     * @param {String} rgbString The RGBA string; e.g: rgba(255, 255, 255, 0.5)
-     */
-    // public static fromRGBAString(rgbaString: string): Color {
-    //     rgbaString = rgbaString.toLowerCase().replace('rgba(', '').replace(')', '');
-    //     let rgba: string[] = rgbaString.split(',');
-    //     return new Color(
-    //         parseInt(rgba[0]),
-    //         parseInt(rgba[1]),
-    //         parseInt(rgba[2]),
-    //         parseFloat(rgba[3])
-    //     );
-    // }
 
     /**
      * Builds a `Color` from a hex string.
@@ -138,9 +111,6 @@ export class RGB {
         else if (str.indexOf('rgb(') > -1) {
             return RGB.fromRGBString(str);
         }
-        // else if (str.indexOf('rgba(') > -1) {
-        //     return Color.fromRGBAString(str);
-        // }
         else {
             throw new Error('Unsupported color string format.');
         }
@@ -160,22 +130,6 @@ export class RGB {
         let b: number = Math.floor(Math.random() * 255);
         return new RGB(r, g, b);
     }
-
-    // /**
-    //  * Calculates the composition of an alpha color over background color
-    //  * 
-    //  * @param {Color} background 
-    //  * @param {Color} alphaColor 
-    //  */
-    // public static colorAlphaToColor(background: Color, alphaColor: Color): Color {
-    //     let alpha: number = alphaColor.getAlpha();
-
-    //     return new Color(
-    //         (1 - alpha) * background.getRed() + alpha * alphaColor.getRed(),
-    //         (1 - alpha) * background.getGreen() + alpha * alphaColor.getGreen(),
-    //         (1 - alpha) * background.getBlue() + alpha * alphaColor.getBlue()
-    //     );
-    // }
 
     /**
      * Sets the red channel of this color
@@ -228,23 +182,6 @@ export class RGB {
         return this.$b;
     }
 
-    // /**
-    //  * Sets the green channel of this color
-    //  * 
-    //  * @param {Number} a A value between 0 and 1
-    //  */
-    // public setAlpha(a: number): Color {
-    //     this.$a = a * 255;
-    //     return this;
-    // }
-
-    // /**
-    //  * Gets the alpha channel of this color
-    //  */
-    // public getAlpha(): number {
-    //     return this.$a / 255;
-    // }
-
     /**
      * Returns the numerical value of this color.
      * 
@@ -260,13 +197,6 @@ export class RGB {
     public toRGBString(): string {
         return `rgb(${this.getRed()},${this.getGreen()},${this.getBlue()})`;
     }
-
-    // /**
-    //  * Returns a rgba string
-    //  */
-    // public toRGBAString(): string {
-    //     return `rgba(${this.getRed()},${this.getGreen()},${this.getBlue()},${this.getAlpha()})`;
-    // }
 
     /**
      * Returns the numerical value of this color.
@@ -294,18 +224,6 @@ export class RGB {
             b : this.getBlue()
         };
     }
-
-    // /**
-    //  * Returns an IRGBA object
-    //  */
-    // public toRGBAObject(): IRGBA {
-    //     return {
-    //         r : this.getRed(),
-    //         g : this.getGreen(),
-    //         b : this.getBlue(),
-    //         a : this.getAlpha()
-    //     };
-    // }
 
     /**
      * Increases the brightness of this color.
@@ -371,22 +289,6 @@ export class RGB {
     public toString(): string {
         return this.toRGBString();
     }
-
-    // /**
-    //  * toKMLString
-    //  * 
-    //  * Returns a color code string consumable by KML: aabbggrr
-    //  * 
-    //  * https://developers.google.com/kml/documentation/kmlreference#kml-fields
-    //  */
-    // public toKMLString(): string {
-    //     return [
-    //         Hex.toString(this.$a, 2),
-    //         Hex.toString(this.$b, 2),
-    //         Hex.toString(this.$g, 2),
-    //         Hex.toString(this.$r, 2)
-    //     ].join('');
-    // }
 
     /**
      * Returns a copy of this `Color`

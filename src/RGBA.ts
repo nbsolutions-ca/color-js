@@ -289,9 +289,9 @@ export class RGBA extends RGB {
         let g: number = this.getGreen();
         let b: number = this.getBlue();
 
-        r += r * percent;
-        g += g * percent;
-        b += b * percent;
+        r += Math.round(r * percent);
+        g += Math.round(g * percent);
+        b += Math.round(b * percent);
 
         if (r > 255) {
             r = 255;
@@ -318,9 +318,9 @@ export class RGBA extends RGB {
         let g: number = this.getGreen();
         let b: number = this.getBlue();
 
-        r -= r * percent;
-        g -= g * percent;
-        b -= b * percent;
+        r -= Math.round(r * percent);
+        g -= Math.round(g * percent);
+        b -= Math.round(b * percent);
 
         if (r < 0) {
             r = 0;
