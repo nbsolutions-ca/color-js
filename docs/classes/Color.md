@@ -1,4 +1,4 @@
-[@nbsolutions/color - v1.2.2](../README.md) / [Exports](../modules.md) / Color
+[@nbsolutions/color - v1.3.0](../README.md) / [Exports](../modules.md) / Color
 
 # Class: Color
 
@@ -62,7 +62,7 @@ Use RGBA instead
 
 #### Defined in
 
-[Color.ts:25](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L25)
+[Color.ts:25](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L25)
 
 ## Methods
 
@@ -78,7 +78,7 @@ Returns a copy of this `Color`
 
 #### Defined in
 
-[Color.ts:407](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L407)
+[Color.ts:407](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L407)
 
 ___
 
@@ -102,7 +102,7 @@ Does not change the current instance.
 
 #### Defined in
 
-[Color.ts:359](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L359)
+[Color.ts:359](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L359)
 
 ___
 
@@ -118,7 +118,7 @@ Gets the alpha channel of this color
 
 #### Defined in
 
-[Color.ts:248](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L248)
+[Color.ts:248](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L248)
 
 ___
 
@@ -134,7 +134,7 @@ Gets the blue channel of this color
 
 #### Defined in
 
-[Color.ts:231](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L231)
+[Color.ts:231](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L231)
 
 ___
 
@@ -150,7 +150,7 @@ Gets the green channel of this color
 
 #### Defined in
 
-[Color.ts:214](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L214)
+[Color.ts:214](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L214)
 
 ___
 
@@ -166,7 +166,7 @@ Gets the red channel of this color
 
 #### Defined in
 
-[Color.ts:197](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L197)
+[Color.ts:197](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L197)
 
 ___
 
@@ -190,7 +190,7 @@ Does not change the current instance.
 
 #### Defined in
 
-[Color.ts:330](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L330)
+[Color.ts:330](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L330)
 
 ___
 
@@ -212,7 +212,7 @@ Sets the green channel of this color
 
 #### Defined in
 
-[Color.ts:240](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L240)
+[Color.ts:240](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L240)
 
 ___
 
@@ -234,7 +234,7 @@ Sets the green channel of this color
 
 #### Defined in
 
-[Color.ts:223](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L223)
+[Color.ts:223](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L223)
 
 ___
 
@@ -256,7 +256,7 @@ Sets the green channel of this color
 
 #### Defined in
 
-[Color.ts:206](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L206)
+[Color.ts:206](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L206)
 
 ___
 
@@ -278,7 +278,7 @@ Sets the red channel of this color
 
 #### Defined in
 
-[Color.ts:189](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L189)
+[Color.ts:189](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L189)
 
 ___
 
@@ -300,7 +300,7 @@ Returns the numerical value of this color.
 
 #### Defined in
 
-[Color.ts:278](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L278)
+[Color.ts:278](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L278)
 
 ___
 
@@ -318,7 +318,7 @@ __Note:__ This ignores the alpha channel.
 
 #### Defined in
 
-[Color.ts:293](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L293)
+[Color.ts:293](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L293)
 
 ___
 
@@ -338,7 +338,7 @@ https://developers.google.com/kml/documentation/kmlreference#kml-fields
 
 #### Defined in
 
-[Color.ts:395](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L395)
+[Color.ts:395](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L395)
 
 ___
 
@@ -354,7 +354,7 @@ Returns an IRGBA object
 
 #### Defined in
 
-[Color.ts:314](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L314)
+[Color.ts:314](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L314)
 
 ___
 
@@ -370,7 +370,7 @@ Returns a rgba string
 
 #### Defined in
 
-[Color.ts:271](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L271)
+[Color.ts:271](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L271)
 
 ___
 
@@ -388,7 +388,7 @@ __Note:__ This ignores the alpha channel.
 
 #### Defined in
 
-[Color.ts:302](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L302)
+[Color.ts:302](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L302)
 
 ___
 
@@ -404,7 +404,7 @@ Returns a rgb string
 
 #### Defined in
 
-[Color.ts:264](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L264)
+[Color.ts:264](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L264)
 
 ___
 
@@ -420,7 +420,7 @@ Returns a stringified version of this `Color`
 
 #### Defined in
 
-[Color.ts:384](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L384)
+[Color.ts:384](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L384)
 
 ___
 
@@ -438,7 +438,7 @@ __Note:__ This ignores the alpha channel.
 
 #### Defined in
 
-[Color.ts:257](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L257)
+[Color.ts:257](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L257)
 
 ___
 
@@ -461,7 +461,7 @@ Calculates the composition of an alpha color over background color
 
 #### Defined in
 
-[Color.ts:174](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L174)
+[Color.ts:174](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L174)
 
 ___
 
@@ -487,7 +487,7 @@ let white: Color = Color.fromHex(0xFFFFFF);
 
 #### Defined in
 
-[Color.ts:122](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L122)
+[Color.ts:122](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L122)
 
 ___
 
@@ -517,7 +517,7 @@ let white: Color = Color.fromHexString("#FFFFFF");
 
 #### Defined in
 
-[Color.ts:92](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L92)
+[Color.ts:92](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L92)
 
 ___
 
@@ -545,7 +545,7 @@ let white: Color = Color.fromRGBAString("rgba(255, 255, 255, 1)");
 
 #### Defined in
 
-[Color.ts:68](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L68)
+[Color.ts:68](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L68)
 
 ___
 
@@ -573,7 +573,7 @@ let white: Color = Color.fromRGBString("rgb(255, 255, 255)");
 
 #### Defined in
 
-[Color.ts:46](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L46)
+[Color.ts:46](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L46)
 
 ___
 
@@ -603,7 +603,7 @@ let blue: Color = Color.fromString('rgba(0, 0, 255, 1)');
 
 #### Defined in
 
-[Color.ts:138](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L138)
+[Color.ts:138](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L138)
 
 ___
 
@@ -625,4 +625,4 @@ let random: Color = Color.random();
 
 #### Defined in
 
-[Color.ts:161](https://github.com/nbsolutions-ca/color-js/blob/90a57c4/src/Color.ts#L161)
+[Color.ts:161](https://github.com/nbsolutions-ca/color-js/blob/4ed777f/src/Color.ts#L161)
