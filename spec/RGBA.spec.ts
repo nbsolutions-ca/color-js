@@ -1,4 +1,5 @@
 
+import { RGB } from '../src/RGB';
 import {RGBA} from '../src/RGBA';
 
 describe('utils.RGBA', () => {
@@ -379,5 +380,13 @@ describe('utils.RGBA', () => {
     it('toKMLString', () => {
         let c = new RGBA(255, 0, 255, 128);
         expect(c.toKMLString()).toBe('80FF00FF');
+    });
+
+    it('toRGB', () => {
+        let rgba: RGBA = new RGBA(1, 2, 3, 4);
+        let rgb: RGB = rgba.toRGB();
+        expect(rgb.getRed()).toBe(1);
+        expect(rgb.getGreen()).toBe(2);
+        expect(rgb.getBlue()).toBe(3);
     });
 });

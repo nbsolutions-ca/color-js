@@ -98,6 +98,14 @@ export class RGBA extends RGB {
     }
 
     /**
+     * Drops the alpha channel and returns a RGB instance
+     * @since 1.3.0
+     */
+    public toRGB(): RGB {
+        return new RGB(this.getRed(), this.getGreen(), this.getBlue());
+    }
+
+    /**
      * Returns an IRGBA object
      */
     public toRGBAObject(): IRGBA {
